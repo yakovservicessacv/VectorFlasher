@@ -1,0 +1,53 @@
+# Receta de F-Droid para Vector Flasher.
+#
+# Este archivo NO va en este repositorio: se envia como merge request a
+#   https://gitlab.com/fdroid/fdroiddata
+# en la ruta  metadata/dev.vecflash.yml
+# Se deja aqui como plantilla lista para copiar.
+#
+# ANTES de enviarlo hay que resolver los dos bloqueos que estan al final.
+
+Categories:
+  - Connectivity
+  - System
+License: MIT
+AuthorName: Vector Flasher contributors
+SourceCode: https://github.com/CAMBIAME/VectorFlasher
+IssueTracker: https://github.com/CAMBIAME/VectorFlasher/issues
+
+AutoName: Vector Flasher
+
+RepoType: git
+Repo: https://github.com/CAMBIAME/VectorFlasher.git
+
+Builds:
+  - versionName: '1'
+    versionCode: 1
+    commit: v1
+    subdir: app
+    gradle:
+      - yes
+
+AutoUpdateMode: Version v%v
+UpdateCheckMode: Tags
+CurrentVersion: '1'
+CurrentVersionCode: 1
+
+# ---------------------------------------------------------------------------
+# BLOQUEOS PENDIENTES
+#
+# 1. Binarios precompilados
+#    lazysodium-android y JNA meten 12 archivos .so en el APK:
+#      libsodium.so y libjnidispatch.so para arm64-v8a, armeabi-v7a, armeabi,
+#      mips, mips64, x86 y x86_64.
+#    F-Droid exige compilar todo desde fuente. Hay dos salidas:
+#      a) escribir en la receta los pasos para compilar libsodium y JNA, o
+#      b) sustituir lazysodium por criptografia en Java puro (BouncyCastle:
+#         X25519 + BLAKE2b + XChaCha20-Poly1305), que no lleva binarios.
+#    La (b) es la que suele aceptarse sin discusion.
+#
+# 2. El icono
+#    Ahora mismo es una foto de producto de Anki/DDL, que no es material libre.
+#    F-Droid lo va a rechazar. Hay un icono vectorial propio preparado en
+#    tools/icono-libre/ para cambiarlo antes de enviar.
+# ---------------------------------------------------------------------------

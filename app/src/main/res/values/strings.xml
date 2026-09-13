@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Vector Flasher</string>
+
+    <!-- Guide -->
+    <string name="guide_title">Get Vector ready</string>
+    <string name="guide_subtitle">Four steps. No account needed.</string>
+    <string name="guide_step1_title">Turn Vector on</string>
+    <string name="guide_step1_body">Put him on the charger and power him up. He has to stay on the charger for the whole process.</string>
+    <string name="guide_step2_title">Hold the power button</string>
+    <string name="guide_step2_body">Hold the power button until the lights on his back go out completely, then let go the moment they come back on. You should land on a screen showing:</string>
+    <string name="guide_step3_title">Double-press the back button</string>
+    <string name="guide_step3_body">Press it twice and wait until his face reads Vector-(ID) with a few hashes underneath:</string>
+    <string name="guide_step4_title">Press your Vector</string>
+    <string name="guide_step4_body">Six numbers appear on his face. Type them into the app and you are paired.</string>
+    <string name="guide_start">Start</string>
+    <string name="guide_skip">Skip</string>
+    <string name="guide_again">Show steps again</string>
+
+    <!-- Scan -->
+    <string name="scan_title">Choose your robot</string>
+    <string name="scan_searching">Searching for robots…</string>
+    <string name="scan_none">No robot yet. Make sure Vector is in pairing mode and showing a code.</string>
+    <string name="scan_retry">Search again</string>
+    <string name="scan_stop">Stop</string>
+
+    <!-- Pairing -->
+    <string name="pin_title">Enter the code</string>
+    <string name="pin_body">Vector is showing a number on his face. Type it here.</string>
+    <string name="pin_label">Code on his face</string>
+    <string name="pin_button">Pair</string>
+    <string name="cancel">Cancel</string>
+    <string name="connecting">Connecting to Vector…</string>
+    <string name="handshaking">Negotiating protocol…</string>
+    <string name="authenticating">Authenticating…</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="not_connected">Not connected</string>
+
+    <!-- Tabs -->
+    <string name="tab_status">Status</string>
+    <string name="tab_wifi">Wi-Fi</string>
+    <string name="tab_firmware">Firmware</string>
+
+    <!-- Status -->
+    <string name="status_esn">Serial number</string>
+    <string name="status_firmware">Firmware</string>
+    <string name="status_wifi">Wi-Fi</string>
+    <string name="status_network">Network</string>
+    <string name="status_battery">Battery</string>
+    <string name="status_owner">Has owner</string>
+    <string name="status_cloud">Cloud authenticated</string>
+    <string name="status_ota">Update running</string>
+    <string name="status_refresh">Refresh</string>
+    <string name="status_loading">Reading status…</string>
+    <string name="log_title">Log</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Wi-Fi -->
+    <string name="wifi_note">Vector downloads the firmware himself, so he needs Wi-Fi before you flash anything.</string>
+    <string name="wifi_scan">Scan networks</string>
+    <string name="wifi_scanning">Scanning…</string>
+    <string name="wifi_password">Password</string>
+    <string name="wifi_connect">Connect</string>
+    <string name="wifi_hidden">(hidden)</string>
+    <string name="wifi_result">Result: %1$s</string>
+    <string name="wifi_none">No networks yet. Tap Scan networks.</string>
+
+    <!-- Firmware -->
+    <string name="fw_stack">Stack</string>
+    <string name="fw_version">Version</string>
+    <string name="fw_custom_url">…or your own .ota URL</string>
+    <string name="fw_flash">Install on Vector</string>
+    <string name="fw_confirm_title">Install this firmware?</string>
+    <string name="fw_confirm_body">Vector will download and install:\n\n%1$s\n\nKeep him on the charger and leave this app open until it finishes. This replaces his current firmware.</string>
+    <string name="fw_installing">Installing firmware</string>
+    <string name="fw_progress">%1$.1f%% — %2$.1f MB of %3$.1f MB</string>
+    <string name="fw_done">Update complete</string>
+    <string name="fw_done_body">Vector is restarting to apply the new firmware.</string>
+    <string name="fw_failed">The update failed</string>
+    <string name="fw_cancel_ota">Cancel update</string>
+    <string name="fw_refreshing">Updating list…</string>
+    <string name="fw_count">%1$d versions</string>
+    <string name="fw_back">Back to stacks</string>
+    <string name="fw_needs_wifi">Connect Vector to Wi-Fi first, in the Wi-Fi tab.</string>
+
+    <!-- Stack descriptions -->
+    <string name="stack_desc_custom">Community firmware: WireOS, purplOS, ClaudOS and more.</string>
+    <string name="stack_desc_oskr">Community builds for robots already dev-unlocked (OSKR).</string>
+    <string name="stack_desc_unstable">Test builds. Expect bugs.</string>
+    <string name="stack_desc_beta">Early Anki builds from before the public release.</string>
+    <string name="stack_desc_prod">Official Anki / Digital Dream Labs firmware, 1.0 to 2.0.1.</string>
+    <string name="stack_desc_escapepod">Builds that talk to an Escape Pod server instead of the cloud.</string>
+    <string name="stack_desc_modep">Escape Pod builds with community patches.</string>
+    <string name="stack_desc_utility">Tools: unlock, revert to production, recovery installer.</string>
+
+    <!-- Wi-Fi states -->
+    <string name="wifi_state_0">Not connected</string>
+    <string name="wifi_state_1">Connected, no internet</string>
+    <string name="wifi_state_2">Connected</string>
+    <string name="wifi_state_3">Connecting</string>
+    <string name="wifi_state_unknown">Unknown</string>
+
+    <!-- Auth types -->
+    <string name="auth_0">Open</string>
+    <string name="auth_1">WEP</string>
+    <string name="auth_2">WEP shared</string>
+    <string name="auth_3">IEEE8021X</string>
+    <string name="auth_4">WPA-PSK</string>
+    <string name="auth_5">WPA2-PSK</string>
+    <string name="auth_6">WPA2-EAP</string>
+    <string name="auth_unknown">Secured</string>
+
+    <!-- Errors -->
+    <string name="err_title">Something went wrong</string>
+    <string name="err_retry">Start over</string>
+    <string name="err_permissions_title">Bluetooth permission needed</string>
+    <string name="err_permissions_body">This app needs Bluetooth permission to find and pair your Vector. Grant it and reopen the app if the dialog does not appear.</string>
+    <string name="err_bad_pin">Wrong code, or the session lost sync. Disconnect and pair again.</string>
+    <string name="err_url_too_long">The .ota URL cannot be longer than 255 characters.</string>
+
+    <!-- added -->
+    <string name="guide_next">Next</string>
+    <string name="err_bt_unavailable">Bluetooth is off or unavailable.</string>
+    <string name="err_scan_failed">Bluetooth scan failed (code %1$d).</string>
+    <string name="err_no_permissions">Missing Bluetooth permission.</string>
+    <string name="err_services">Could not discover the robot services (%1$d).</string>
+    <string name="err_no_service">This device does not expose Vector’s pairing service.</string>
+    <string name="err_no_chars">The robot is missing the expected Bluetooth characteristics.</string>
+    <string name="err_crypto_state">Encryption state out of sync. Disconnect and pair again.</string>
+    <string name="err_unsupported_version">Unsupported RTS version: %1$d.</string>
+    <string name="err_no_keys">No session keys yet. Reconnect to Vector.</string>
+
+    <!-- offline + activacion -->
+    <string name="guide_step2_screen">anki.com/v   ddl.io/v   u.p-2.xyz   u.skittl.net</string>
+    <string name="guide_step3_screen">Vector-(ID)   ####</string>
+    <string name="offline_title">Save firmware on your phone?</string>
+    <string name="offline_body">Keep the files on the phone and you can install them later with no internet: the phone serves them to Vector over your local network.</string>
+    <string name="offline_yes">Choose what to save</string>
+    <string name="offline_no">Not now</string>
+    <string name="offline_pick_title">Pick what to download</string>
+    <string name="offline_pick_body">You can change this later from the Firmware tab.</string>
+    <string name="offline_download_n">Download %1$d</string>
+    <string name="offline_downloading">Downloading</string>
+    <string name="offline_stored">On your phone</string>
+    <string name="offline_saved_count">%1$d saved · %2$s</string>
+    <string name="offline_delete">Delete from phone</string>
+    <string name="offline_install_local">Install from phone</string>
+    <string name="offline_server_error">Could not start the phone’s local server.</string>
+    <string name="offline_no_ip">The phone has no local network address. Put it on the same Wi-Fi as Vector.</string>
+    <string name="offline_note">Vector and the phone must be on the same network. The phone’s hotspot works too.</string>
+    <string name="offline_downloads">Downloads</string>
+    <string name="offline_none">Nothing saved on the phone yet.</string>
+    <string name="tab_activate">Activate</string>
+    <string name="act_title">Activation</string>
+    <string name="act_body">This is the ACTIVATE step of the escape-pod / wire-pod flow. It hands Vector a session token so he authenticates against whatever server his firmware points at.</string>
+    <string name="act_firmware">Detected firmware</string>
+    <string name="act_backend">Server</string>
+    <string name="act_backend_wirepod">wire-pod on your network</string>
+    <string name="act_backend_community">Community servers</string>
+    <string name="act_backend_escapepod">Escape Pod</string>
+    <string name="act_backend_official">Official Anki / DDL cloud</string>
+    <string name="act_token">Session token</string>
+    <string name="act_token_hint">Pod firmware accepts any token, so one is generated for you.</string>
+    <string name="act_activate">Activate</string>
+    <string name="act_ok">Vector is activated</string>
+    <string name="act_failed">Activation failed (code %1$d)</string>
+    <string name="act_needs_account">The official cloud needs an Anki/DDL account, which this app deliberately does not use. Pick a pod or community server instead.</string>
+    <string name="act_robot_ip">Vector’s IP</string>
+    <string name="act_get_ip">Get IP</string>
+    <string name="act_authed">Authenticated</string>
+    <string name="act_next_steps">Then open http://%1$s:8080 in a browser to finish setting up wire-pod.</string>
+
+    <string name="wifi_connecting">Connecting…</string>
+    <string name="wifi_connecting_note">Vector takes up to 15 seconds to answer.</string>
+    <string name="attribution">Icons: Font Awesome (CC BY 4.0). Illustrations: vector-web-setup, Digital Dream Labs (MIT).</string>
+
+    <string name="fw_speed">%1$s/s</string>
+    <string name="fw_eta">~%1$s left</string>
+    <string name="fw_eta_unknown">estimating…</string>
+    <string name="fw_slow_tip">Slow because Vector’s software is running. From recovery mode (the anki.com/v screen) he downloads several times faster.</string>
+    <string name="fw_local_faster">Installing from the phone is usually the fastest option.</string>
+    <string name="status_hero_connected">Paired</string>
+    <string name="min_short">%1$d min</string>
+    <string name="hour_short">%1$dh %2$02dm</string>
+
+    <string name="offline_updated">%1$d firmware updated from the sources</string>
+    <string name="offline_delete_all">Delete all</string>
+    <string name="offline_failed">failed</string>
+    <string name="offline_sources">Checked: %1$s</string>
+
+    <string name="offline_missing">%1$s is not on the phone. Download it again.</string>
+
+    <string name="offline_robot_no_wifi">Vector is not on Wi-Fi. He downloads the file himself, so connect him first in the Wi-Fi tab.</string>
+    <string name="offline_other_network">Vector is on %1$s and the phone on %2$s: different networks. Put both on the same Wi-Fi, or connect Vector to the phone hotspot.</string>
+    <string name="fw_stalled_tip">Stuck at 0%%: Vector cannot reach the phone. Check both are on the same Wi-Fi and that the router does not isolate devices (guest networks usually do).</string>
+    <string name="offline_requirements">Vector must be on the same Wi-Fi as the phone.</string>
+
+    <string name="stack_desc_pvic_dev">Development builds 2.1.0.x, newer than anything else here.</string>
+    <string name="stack_desc_pvic_oskr">2.1.0.x builds for dev-unlocked robots.</string>
+    <string name="stack_desc_pvic_ddl">Digital Dream Labs builds.</string>
+    <string name="stack_desc_pvic_unlock">Unlock images, some tied to a specific serial number.</string>
+    <string name="stack_desc_pvic_weird">Experimental and odd builds. No guarantees.</string>
+    <string name="stack_desc_pvic_dvt">For prototype hardware. Do not use on a retail Vector.</string>
+
+    <string name="fw_written">%1$s of %2$s written to Vector</string>
+</resources>

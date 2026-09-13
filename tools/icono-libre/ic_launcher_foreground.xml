@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Icono LIBRE de repuesto, dibujado desde cero. No usa la foto de producto.
+
+    Para usarlo (necesario antes de enviar a F-Droid):
+      1. copiar este archivo a  app/src/main/res/drawable/ic_launcher_foreground.xml
+      2. borrar los PNG:  app/src/main/res/mipmap-*/ic_launcher*.png
+      3. en mipmap-anydpi-v26/ic_launcher.xml y ic_launcher_round.xml,
+         cambiar  @mipmap/ic_launcher_foreground  por  @drawable/ic_launcher_foreground
+      4. poner el color de fondo a #0C1410 en values/ic_launcher_background.xml
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <path android:fillColor="#454B47"
+        android:pathData="M28,52 h1 a6,6 0 0 1 6,6 v14 a6,6 0 0 1 -6,6 h-1 a6,6 0 0 1 -6,-6 v-14 a6,6 0 0 1 6,-6 z" />
+    <path android:fillColor="#454B47"
+        android:pathData="M79,52 h1 a6,6 0 0 1 6,6 v14 a6,6 0 0 1 -6,6 h-1 a6,6 0 0 1 -6,-6 v-14 a6,6 0 0 1 6,-6 z" />
+    <path android:fillColor="#2C312E"
+        android:pathData="M37,32 h34 a7,7 0 0 1 7,7 v28 a7,7 0 0 1 -7,7 h-34 a7,7 0 0 1 -7,-7 v-28 a7,7 0 0 1 7,-7 z" />
+    <path android:fillColor="#070908"
+        android:pathData="M39,37 h30 a4,4 0 0 1 4,4 v18 a4,4 0 0 1 -4,4 h-30 a4,4 0 0 1 -4,-4 v-18 a4,4 0 0 1 4,-4 z" />
+    <path android:fillColor="#2EE06B"
+        android:pathData="M43.5,43 h5 a2.5,2.5 0 0 1 2.5,2.5 v7 a2.5,2.5 0 0 1 -2.5,2.5 h-5 a2.5,2.5 0 0 1 -2.5,-2.5 v-7 a2.5,2.5 0 0 1 2.5,-2.5 z" />
+    <path android:fillColor="#2EE06B"
+        android:pathData="M59.5,43 h5 a2.5,2.5 0 0 1 2.5,2.5 v7 a2.5,2.5 0 0 1 -2.5,2.5 h-5 a2.5,2.5 0 0 1 -2.5,-2.5 v-7 a2.5,2.5 0 0 1 2.5,-2.5 z" />
+    <path android:fillColor="#5A615C" android:pathData="M36,58 h4 v12 h-4 z" />
+    <path android:fillColor="#5A615C" android:pathData="M68,58 h4 v12 h-4 z" />
+    <path android:fillColor="#5A615C"
+        android:pathData="M39,67 h30 a3,3 0 0 1 3,3 v1 a3,3 0 0 1 -3,3 h-30 a3,3 0 0 1 -3,-3 v-1 a3,3 0 0 1 3,-3 z" />
+</vector>

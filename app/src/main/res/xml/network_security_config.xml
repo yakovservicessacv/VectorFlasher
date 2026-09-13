@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+        Los .ota de la comunidad se sirven por HTTP plano desde el servidor de
+        websetup, asi que hay que permitir texto claro solo para ese dominio.
+        Todo lo demas sigue exigiendo HTTPS.
+    -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">websetup.skittle.dev</domain>
+        <domain includeSubdomains="true">ota.global.anki-services.com</domain>
+        <domain includeSubdomains="true">ota-cdn.anki.com</domain>
+    </domain-config>
+    <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

@@ -1,0 +1,20 @@
+Vector Flasher se empareja con un robot Anki Vector por Bluetooth LE y le
+instala firmware, dejandote elegir que version quieres.
+
+Las apps oficiales te guian por la configuracion pero nunca te dejan elegir el
+firmware. Las herramientas web de la comunidad si, pero necesitan Chrome de
+escritorio y Web Bluetooth. Esta app lo hace desde el celular y sin cuenta.
+
+Que hace
+
+* Se empareja con Vector por Bluetooth usando su propio protocolo RTS
+* Lista firmware de varios espejos de la comunidad y los fusiona
+* Muestra numero de serie, firmware, bateria y estado de Wi-Fi del robot
+* Escanea y conecta redes Wi-Fi a traves del robot
+* Descarga firmware al celular y se lo sirve por la red local, asi puedes
+  instalar sin nada de internet
+* Comprueba que el archivo descargado es de verdad un OTA de Vector
+* Ingles, espanol, portugues, frances y aleman
+
+Es una herramienta no oficial. No esta hecha por Anki ni por Digital Dream
+Labs, ni tiene relacion con ellos.
