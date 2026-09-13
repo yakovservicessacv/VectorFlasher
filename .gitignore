@@ -12,3 +12,6 @@
 *.apk
 *.jks
 *.keystore
+
+# datos de la clave de firma: nunca subir
+keystore.properties
