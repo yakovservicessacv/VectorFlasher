@@ -12,13 +12,13 @@ Categories:
   - System
 License: MIT
 AuthorName: Vector Flasher contributors
-SourceCode: https://github.com/CAMBIAME/VectorFlasher
-IssueTracker: https://github.com/CAMBIAME/VectorFlasher/issues
+SourceCode: https://github.com/yakovservicessacv/VectorFlasher
+IssueTracker: https://github.com/yakovservicessacv/VectorFlasher/issues
 
 AutoName: Vector Flasher
 
 RepoType: git
-Repo: https://github.com/CAMBIAME/VectorFlasher.git
+Repo: https://github.com/yakovservicessacv/VectorFlasher.git
 
 Builds:
   - versionName: '1'
